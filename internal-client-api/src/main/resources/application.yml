@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    path-match:
+      matching-strategy: ANT_PATH_MATCHER
+  profiles:
+    active: local
+    include: datasource
+  application:
+    name: play-ground
+server:
+  port: 9090
